@@ -1,0 +1,15 @@
+.main-nav{
+  position: relative;
+  padding-top: 50px;
+  font-size: 24px;
+}
+
+.UzHackers{
+  font-size: 30px;
+}
+
+.affix {
+  top: 0;
+  width: 99%;
+  z-index: 9999 !important;
+}

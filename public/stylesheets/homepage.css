@@ -1,0 +1,311 @@
+/* mian page background image */
+.bg-img{
+    position: absolute;
+    width: 100%;
+    /* height: 1080px; */
+    /* filter: blur(8px); */
+}
+
+.main-text{
+    color: rgb(64, 248, 88);
+}
+
+/* aply button decoration */
+.apl-btn{
+    margin-top: 40px;
+    font-size: 20px;
+    color: rgb(60, 250, 20);
+    background-color: rgb(60, 250, 60); /* Fallback color */
+    background-color: rgba(0,0,0, 0.0); /* Black w/opacity/see-through */
+    
+}
+
+.homepage-info {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    margin-top: 100px;
+    position: relative;
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0.8); /* Black w/opacity/see-through */
+    color: white;
+    font-weight: bold;
+    border: 3px solid #adadad;
+
+  }
+
+
+
+/* main bio design */
+
+.explanation{
+    margin-top: 100px;
+    margin-bottom: 150px;
+}
+
+.stylish-panel {
+    text-align: center;
+    font-family: Bold;
+    font-size: 26px;
+    position: relative;
+
+}
+.stylish-panel > div > div{
+    padding: 10px;
+    border: 3px solid transparent;
+    border-radius: 4px;
+    transition: 0.5s;
+    margin-top: 100px;
+    color: rgb(60, 250, 20);
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0.8); /* Black w/opacity/see-through */
+}
+
+/* during onmouseover */
+.stylish-panel  div:hover div {
+    border: 3px solid rgb(243, 247, 243);
+    box-shadow: rgba(231, 238, 231, 0.1) 0px 5px 5px 2px;
+    transition: 0.8s;
+    font-family: bold;
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 1); /* Black w/opacity/see-through */
+}
+/* end of main bio desing */
+
+  .bio2{
+      padding-bottom: 38px;
+  }
+  .bio3{
+      padding-block-end: 40px;
+  }
+
+  .main-target{
+      padding: 100px;
+  }
+
+  .main-bootcamp{
+      padding: 100px;
+      background-color: rgb(4, 84, 204);
+      border: 3px solid #b8b6b6;
+      color: white;
+      font-family: bold;
+      margin-bottom: 100px; 
+      
+  }
+
+  .main-btc1, .main-btc2{
+    /* border: 3px solid #adadad; */
+    color: white;
+  }
+
+  .main-btc1{
+      text-align-last: right;
+
+
+  }
+
+  .main-btm{
+    background-color: blue;
+  }
+
+  .stylish-panel1 {
+    /* padding: 100px; */
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    font-family: Bold;
+    font-size: 26px;
+    color: white;
+}
+.stylish-panel1 > div > div{
+    padding: 10px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    transition: 0.5s;
+}
+.stylish-panel1  div:hover div {
+    margin-top: -10px;
+    border: 3px solid rgb(243, 247, 243);
+    box-shadow: rgba(231, 238, 231, 0.1) 0px 5px 5px 2px;
+    background: rgba(219, 230, 214, 0.1);
+    transition: 0.5s;
+}
+
+.main-programs{
+    margin-bottom: 100px;
+    
+}
+
+.log-image{
+    width: 100%;
+}
+
+/* four type of program sectoin border */
+.border{
+    position: relative;
+    text-align: center;
+    padding-top: 150px;
+    /* padding-bottom: 30px; */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0.6); /* Black w/opacity/see-through */
+    font-weight: bold;
+    border: 3px solid white;
+    margin-top: 100px;
+    color: rgb(60, 250, 20);
+    font-size: 16px;
+    height: 300px;
+}
+
+
+/* tester */
+
+/* Delete these base styles before copying and pasting into your CSS */
+/* body { font-size: 21px; font-family: Roboto; margin: 30px 30px; } *, *:before, *:after { box-sizing: border-box; } */
+/* End of delete base styles */
+body{
+    font-size: 21px;
+}
+/* -------------------------------------------------------------------------
+  VERTICAL STEPPERS
+-------------------------------------------------------------------------- */
+
+/* Steps */
+.step {
+  position: relative;
+  min-height: 1em;
+  color: gray;
+  padding-top: 10px;
+  padding-bottom: 30px;
+}
+.step + .step {
+  margin-top: 1.5em
+}
+.step > div:first-child {
+  position: static;
+  height: 0;
+}
+.step > div:not(:first-child) {
+  margin-left: 1.5em;
+  padding-left: 1em;
+}
+.step.step-active {
+  color: #4285f4
+}
+.step.step-active .circle {
+  background-color: #4285f4;
+}
+
+/* Circle */
+.circle {
+  background: gray;
+  position: relative;
+  width: 1.5em;
+  height: 1.5em;
+  line-height: 1.5em;
+  border-radius: 100%;
+  color: #fff;
+  text-align: center;
+  box-shadow: 0 0 0 3px #fff;
+}
+
+/* Vertical Line */
+.circle:after {
+  content: ' ';
+  position: absolute;
+  display: block;
+  top: 1px;
+  right: 50%;
+  bottom: 1px;
+  left: 50%;
+  height: 100%;
+  width: 1px;
+  transform: scale(1, 2);
+  transform-origin: 50% -100%;
+  background-color: rgba(250, 249, 249, 0.25);
+  z-index: -1;
+}
+/* .step:last-child .circle:after {
+  display: none
+} */
+
+/* Stepper Titles */
+.title {
+  line-height: 1.5em;
+  font-weight: bold;
+}
+.caption {
+  font-size: 0.8em;
+}
+
+
+.main-process{
+    background-color: rgb(241, 239, 241);
+}
+
+.main-progress{
+    padding-top: 30px;
+}
+
+.main-btm-title{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    background: #2d78f0;
+
+}
+
+/* study now play later logo */
+.main-pay{
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    color: white;
+    font-family: bold;
+
+}
+
+/* main application form */
+.main-apl1, .main-apl2{
+    background-color: white;
+    /* border: 3px solid rgb(235, 232, 232); */
+}
+
+/* button at the middle of explanation div */
+.view-btn{
+    position: relative;
+    padding-top: 10px;
+    top: -15px;
+    color: white;
+    padding-bottom: 10px;
+    font-family: bold;
+    border-radius: 50px;
+    z-index: 10;
+    font-size: 16px;
+}
+
+/* footer application */
+.footer-appl{
+    padding-bottom: 30px;
+}
+
+.plan{
+    color:rgb(51, 51, 255);
+    font-size: 30px;
+    background-color: white;
+    font-family: bold;
+    /* border: 3px solid rgb(235, 232, 232); */
+}
+.footer-p{
+    font-size: 26px;
+    font-family: bold;
+}
+.footer-adress{
+    font-size: 20px;
+    color: #b8b6b6;
+}
+
+.footer-border{
+    border: 3px solid rgb(235, 232, 232);
+}
+
+.fb1{
+    padding-bottom: 23px
+}
